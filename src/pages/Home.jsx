@@ -4,7 +4,7 @@ import { useTypingEffect } from '../hooks/useTypingEffect';
 import { links } from '../data/links';
 
 const Home = () => {
-  const titles = ['Aspiring Software Engineer', 'Spring Boot Backend Engineer', 'Full-Stack Developer', 'Backend Developer', 'Aspiring Data Scientist', 'AI & Machine Learning Enthusiast'];
+  const titles = ['Aspiring Software Engineer', 'Spring Boot Backend Engineer', 'Full-Stack Developer', 'Aspiring Data Scientist', 'AI & Machine Learning Enthusiast'];
   const typingRef = useTypingEffect(titles, 100, 50, 2000);
 
   return (
